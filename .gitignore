@@ -2,3 +2,4 @@ settings.yml
 .venv
 __pycache__
 poetry.lock
+data
