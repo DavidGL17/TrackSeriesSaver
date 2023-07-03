@@ -18,9 +18,9 @@ poethepoet = "^0.18.1"
 
 [tool.poe.tasks]
 app = "poetry run python trackseriessaver/main.py"
-lint = "poetry run flake8 discordpibot tests"
+lint = "poetry run flake8 trackseriessaver tests"
 test = "poetry run pytest tests"
-format = "poetry run black discordpibot tests --line-length 120 --check"
+format = "poetry run black trackseriessaver tests --line-length 120 --check"
 
 [build-system]
 requires = ["poetry-core"]
