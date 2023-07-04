@@ -16,7 +16,7 @@ class SingletonZODB:
     def __init__(self):
         # check if data folder exists, otherwise create it
         if not os.path.exists(database_path):
-            os.mkdir(database_path)
+            os.makedirs(database_path)
         self.db = DB(os.path.join(database_path, "data.fs"))
         self.conn = self.db.open()
         self.dbroot = self.conn.root()
