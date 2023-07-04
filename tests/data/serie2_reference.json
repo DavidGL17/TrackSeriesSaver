@@ -1,0 +1,653 @@
+{
+    "id": 267435,
+    "name": "My Teen Romantic Comedy SNAFU",
+    "numEpisodes": 38,
+    "numEpisodesWatched": 26,
+    "numSeasons": 3,
+    "overview": "So exactly what\u2019s going to happen when Hachiman Hikigaya, an isolated high school student with no friends, no interest in making any and a belief that everyone else\u2019s supposedly great high school experiences are either delusions or outright lies, is coerced by a well meaning faculty member into joining the one member \u201cVolunteer Services Club\u201d run by Yukino Yukinoshita, who\u2019s smart, attractive and generally considers everyone in her school to be her complete inferior?",
+    "imdbId": "tt2703720",
+    "tvdbId": 267435,
+    "posterImage": "tests/data/images/267435/posterImage_267435.jpg",
+    "bannerImage": "tests/data/images/267435/bannerImage_267435.jpg",
+    "fanartImage": "tests/data/images/267435/fanartImage_267435.jpg",
+    "status": "Ended",
+    "seasons": [
+        {
+            "number": 1,
+            "posterImage": "tests/data/images/267435/1/season1Poster.jpg",
+            "numEpisodes": 13,
+            "numEpisodesWatched": 13,
+            "episodes": [
+                {
+                    "serieId": 267435,
+                    "id": 4516061,
+                    "directors": [
+                        "Ai Yoshimura"
+                    ],
+                    "title": "Youth Romantic Comedy is Wrong, as I Expected",
+                    "number": 1,
+                    "seasonNumber": 1,
+                    "overview": "Hachiman Hikigaya is a loner with an inferiority complex who is tricked into joining the \"Service Club\" that helps students with their problems\u2026 at all costs.",
+                    "image": "tests/data/images/267435/1/1.jpg",
+                    "watched": true,
+                    "imdbId": "tt2848404",
+                    "tvdbId": 4516061,
+                    "airDate": "2013-04-05T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 4530919,
+                    "directors": [
+                        "Koji Aritomi"
+                    ],
+                    "title": "All People Surely Have Their Own Worries",
+                    "number": 2,
+                    "seasonNumber": 1,
+                    "overview": "Hachiman bears witness as Yui tries to either fit in or break away from her social group. Later, the club receives a new request from an old friend of Hachiman\u2019s.",
+                    "image": "tests/data/images/267435/1/2.jpg",
+                    "watched": true,
+                    "imdbId": "tt2848402",
+                    "tvdbId": 4530919,
+                    "airDate": "2013-04-12T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 4530920,
+                    "directors": [
+                        "Shigehisa Iida"
+                    ],
+                    "title": "Sometimes the Gods of Rom-Coms Does Nice Things",
+                    "number": 3,
+                    "seasonNumber": 1,
+                    "overview": "As Hachiman continues to hone his skills in the art of being left alone, another student comes to him with a new request for the club.",
+                    "image": "tests/data/images/267435/1/3.jpg",
+                    "watched": true,
+                    "imdbId": "tt2848400",
+                    "tvdbId": 4530920,
+                    "airDate": "2013-04-19T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 4530921,
+                    "directors": [
+                        "Hideya Takahashi"
+                    ],
+                    "title": "In Other Words, He Doesn\u2019t Have Many Friends",
+                    "number": 4,
+                    "seasonNumber": 1,
+                    "overview": "Hachiman has a small crisis concerning little sisters and what they mean.  Afterward he receives a mysterious text, outlining the club\u2019s next student request.",
+                    "image": "tests/data/images/267435/1/4.jpg",
+                    "watched": true,
+                    "imdbId": "tt2898660",
+                    "tvdbId": 4530921,
+                    "airDate": "2013-04-26T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 4530922,
+                    "directors": [
+                        "Noriyuki Nomata"
+                    ],
+                    "title": "Once Again, He Turns Back on the Path from Whence He Came",
+                    "number": 5,
+                    "seasonNumber": 1,
+                    "overview": "Hachiman\u2019s sister is asks for advice from her classmates.  Apparently she has been acting strange lately, and the Service Club intends to find out why.",
+                    "image": "tests/data/images/267435/1/5.jpg",
+                    "watched": true,
+                    "imdbId": "tt2898658",
+                    "tvdbId": 4530922,
+                    "airDate": "2013-05-03T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 4530923,
+                    "directors": [
+                        "Tomoyuki Kurokawa"
+                    ],
+                    "title": "His Beginning With Her Finally Ends",
+                    "number": 6,
+                    "seasonNumber": 1,
+                    "overview": "Shizuka announces that Hachiman and Yui must go on a recruitment drive to find more members, and they know exactly who to target.",
+                    "image": "tests/data/images/267435/1/6.jpg",
+                    "watched": true,
+                    "imdbId": "tt2898656",
+                    "tvdbId": 4530923,
+                    "airDate": "2013-05-10T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 4530924,
+                    "directors": [
+                        "Tomoyuki Kawamura"
+                    ],
+                    "title": "Anyway, Getting No Rest, Even Though it\u2019s Summer Break, Just Isn\u2019t Right",
+                    "number": 7,
+                    "seasonNumber": 1,
+                    "overview": "Hachiman tries his best to relax during Summer break but constant texts from Shizuka concerning the Service Club activities prevent him from doing so.",
+                    "image": "tests/data/images/267435/1/7.jpg",
+                    "watched": true,
+                    "imdbId": "tt3025114",
+                    "tvdbId": 4530924,
+                    "airDate": "2013-05-17T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 4530925,
+                    "directors": [
+                        "Hideaki Nakano"
+                    ],
+                    "title": "One Day, They Will Learn the Truth",
+                    "number": 8,
+                    "seasonNumber": 1,
+                    "overview": "Shizuka readies a bonfire and a \"test of courage\". Later, Yui recognizes the limo that hit Hachiman.",
+                    "image": "tests/data/images/267435/1/8.jpg",
+                    "watched": true,
+                    "imdbId": "tt3025112",
+                    "tvdbId": 4530925,
+                    "airDate": "2013-05-24T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 4530926,
+                    "directors": [
+                        "Hideya Takahashi"
+                    ],
+                    "title": "For the Third Time, He Turns Back on the Path from Whence He Came",
+                    "number": 9,
+                    "seasonNumber": 1,
+                    "overview": "Yui invites Hachiman and Komachi to the annual summer fireworks festival. The pair run into Haruno, who explains the complicated relationship between herself and Yukino.",
+                    "image": "tests/data/images/267435/1/9.jpg",
+                    "watched": true,
+                    "imdbId": "tt3025110",
+                    "tvdbId": 4530926,
+                    "airDate": "2013-05-31T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 4530927,
+                    "directors": [
+                        "Risako Yoshida"
+                    ],
+                    "title": "The Distance Between Them Remains Unchanged as the Festival is Becoming a Carnival",
+                    "number": 10,
+                    "seasonNumber": 1,
+                    "overview": "Yui notices a rift forming between Hachiman and Yukino. Hachiman is nominated to serve on the committee for the school\u2019s upcoming cultural festival.",
+                    "image": "tests/data/images/267435/1/10.jpg",
+                    "watched": true,
+                    "imdbId": "tt3025108",
+                    "tvdbId": 4530927,
+                    "airDate": "2013-06-07T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 4530928,
+                    "directors": [
+                        "Shunsuke Ishikawa"
+                    ],
+                    "title": "And So the Curtain on Each Stage Rises, and the Festival is Festivaling Its Very Best",
+                    "number": 11,
+                    "seasonNumber": 1,
+                    "overview": "Hachiman and Yui check on Yukino. Later, Hachiman shakes things up with the committee when he decides to alter their mindset.",
+                    "image": "tests/data/images/267435/1/11.jpg",
+                    "watched": true,
+                    "imdbId": "tt3025106",
+                    "tvdbId": 4530928,
+                    "airDate": "2013-06-14T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 4530929,
+                    "directors": [
+                        "Ai Yoshimura"
+                    ],
+                    "title": "Thus, His and Her and Her Youth Continues to Be Wrong",
+                    "number": 12,
+                    "seasonNumber": 1,
+                    "overview": "Soubu High\u2019s Cultural Festival continues and Hachiman is stuck carrying out his duty as a committee member by documenting the day\u2019s events on film.",
+                    "image": "tests/data/images/267435/1/12.jpg",
+                    "watched": true,
+                    "imdbId": "tt3025104",
+                    "tvdbId": 4530929,
+                    "airDate": "2013-06-21T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 4587074,
+                    "directors": [
+                        "Hideya Takahashi"
+                    ],
+                    "title": "And So, Their Festival Will Never End",
+                    "number": 13,
+                    "seasonNumber": 1,
+                    "overview": "A mysterious request to  helm the upcoming sports festival arrives. The group must band together to figure out a way to pull it off.",
+                    "image": "tests/data/images/267435/1/13.jpg",
+                    "watched": true,
+                    "imdbId": "tt3025102",
+                    "tvdbId": 4587074,
+                    "airDate": "2013-06-28T02:00:00+09:00"
+                }
+            ]
+        },
+        {
+            "number": 2,
+            "posterImage": "tests/data/images/267435/2/season2Poster.jpg",
+            "numEpisodes": 13,
+            "numEpisodesWatched": 13,
+            "episodes": [
+                {
+                    "serieId": 267435,
+                    "id": 5082789,
+                    "directors": [
+                        "Shuhei Matsushita"
+                    ],
+                    "title": "No One Knows Why They Came to the Service Club",
+                    "number": 1,
+                    "seasonNumber": 2,
+                    "overview": "The Service Club\u2019s new task is to help Tobecchi find a way to confess his true feelings to Ebino, but she\u2019s got a different agenda in mind, and it includes Hachiman.",
+                    "image": "tests/data/images/267435/2/1.jpg",
+                    "watched": true,
+                    "imdbId": "tt4926974",
+                    "tvdbId": 5082789,
+                    "airDate": "2015-04-03T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 5164692,
+                    "directors": [
+                        "Satoshi Saga"
+                    ],
+                    "title": "His and Her Confessions Reached No One",
+                    "number": 2,
+                    "seasonNumber": 2,
+                    "overview": "The field trip in Kyoto continues, with the Service Club trying their best to help solve their problems. Later, Hachiman makes a surprising realization.",
+                    "image": "tests/data/images/267435/2/2.jpg",
+                    "watched": true,
+                    "imdbId": "tt4926976",
+                    "tvdbId": 5164692,
+                    "airDate": "2015-04-10T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 5164693,
+                    "directors": [
+                        "Takashi Naoya"
+                    ],
+                    "title": "Quietly, Yukinoshita Yukino Makes a Decision",
+                    "number": 3,
+                    "seasonNumber": 2,
+                    "overview": "The tension between Yukino and Hachiman is thick enough to cut with a knife. Meanwhile, Kaker is planning something for Hina.",
+                    "image": "tests/data/images/267435/2/3.jpg",
+                    "watched": true,
+                    "imdbId": "tt4926978",
+                    "tvdbId": 5164693,
+                    "airDate": "2015-04-17T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 5191422,
+                    "directors": [
+                        "Yousuke Hashiguchi"
+                    ],
+                    "title": "And Yuigahama Yui Makes a Declaration",
+                    "number": 4,
+                    "seasonNumber": 2,
+                    "overview": "Hachiman ends up in an awkward situation with Orimoto, while still searching for the solution to the student election prank. However, a resolution is closer than he thinks.",
+                    "image": "tests/data/images/267435/2/4.jpg",
+                    "watched": true,
+                    "imdbId": "tt4926982",
+                    "tvdbId": 5191422,
+                    "airDate": "2015-04-24T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 5191423,
+                    "directors": [
+                        "Yuuji Yanase"
+                    ],
+                    "title": "In That Room, There is No Longer the Scent of Tea",
+                    "number": 5,
+                    "seasonNumber": 2,
+                    "overview": "Hachiman has yet to figure out how to fix the student council president election problem. But a discussion with his sister finally gives him the ability to take action.",
+                    "image": "tests/data/images/267435/2/5.jpg",
+                    "watched": true,
+                    "imdbId": "tt4926984",
+                    "tvdbId": 5191423,
+                    "airDate": "2015-05-01T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 5191424,
+                    "directors": [
+                        "Masayuki Matsumoto"
+                    ],
+                    "title": "Without Incident, the Congress Dances, But Does Not Progress",
+                    "number": 6,
+                    "seasonNumber": 2,
+                    "overview": "After the student council election, Hachiman has his reservations as to whether he made the right choice as the new president struggles with her first event.",
+                    "image": "tests/data/images/267435/2/6.jpg",
+                    "watched": true,
+                    "imdbId": "tt4926986",
+                    "tvdbId": 5191424,
+                    "airDate": "2015-05-08T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 5191425,
+                    "directors": [
+                        "Takashi Naoya"
+                    ],
+                    "title": "Even So, That Room Continues to Play Out the Endless Days",
+                    "number": 7,
+                    "seasonNumber": 2,
+                    "overview": "Iroha\u2019s first event as president isn\u2019t going well. All of the people on the partnering student council just want to look smart, but can\u2019t actually make decisions!",
+                    "image": "tests/data/images/267435/2/7.jpg",
+                    "watched": true,
+                    "imdbId": "tt4926990",
+                    "tvdbId": 5191425,
+                    "airDate": "2015-05-15T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 5191426,
+                    "directors": [
+                        "Mitsuhiro Iwasaki"
+                    ],
+                    "title": "Even Still, Hachiman Hikigaya is\u2026",
+                    "number": 8,
+                    "seasonNumber": 2,
+                    "overview": "After Hachiman and Yukino\u2019s conversation, Hachiman is left contemplating the faults in his thinking. Ms. Hiratsuka offers him a car ride and her advice on the matter.",
+                    "image": "tests/data/images/267435/2/8.jpg",
+                    "watched": true,
+                    "imdbId": "tt4926994",
+                    "tvdbId": 5191426,
+                    "airDate": "2015-05-22T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 5198593,
+                    "directors": [
+                        "Tomoya Takahashi"
+                    ],
+                    "title": "And, Yukino Yukinoshita is\u2026",
+                    "number": 9,
+                    "seasonNumber": 2,
+                    "overview": "Ms. Hiratsuka gives the trio and Iroha tickets a theme park and tells them to discover what Christmas really means.",
+                    "image": "tests/data/images/267435/2/9.jpg",
+                    "watched": true,
+                    "imdbId": "tt4927006",
+                    "tvdbId": 5198593,
+                    "airDate": "2015-05-29T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 5198594,
+                    "directors": [
+                        "Shuhei Matsushita",
+                        "Yoshihiro Hiramine"
+                    ],
+                    "title": "The Thing That the Light in Each of Their Hands Illuminates",
+                    "number": 10,
+                    "seasonNumber": 2,
+                    "overview": "It will take all three members of the Service Club to fix the disastrous Christmas event. After, Yui and Hachiman head out to pick a present for Yukino\u2019s birthday.",
+                    "image": "tests/data/images/267435/2/10.jpg",
+                    "watched": true,
+                    "imdbId": "tt4927016",
+                    "tvdbId": 5198594,
+                    "airDate": "2015-06-05T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 5198595,
+                    "directors": [
+                        "Mitsuhiro Iwasaki"
+                    ],
+                    "title": "Hayato Hayama Always Lives Up to Expectations",
+                    "number": 11,
+                    "seasonNumber": 2,
+                    "overview": "While the group attempts to figure out what their respective future plans are, a rumor is sparked regarding Yukino and Hayama that makes the whole school curious.",
+                    "image": "tests/data/images/267435/2/11.jpg",
+                    "watched": true,
+                    "imdbId": "tt4927020",
+                    "tvdbId": 5198595,
+                    "airDate": "2015-06-12T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 5198596,
+                    "directors": [
+                        "Takashi Naoya"
+                    ],
+                    "title": "Still, The Thing He Desires Is Out of Reach, And He Continues to Mistake What\u2019s Real",
+                    "number": 12,
+                    "seasonNumber": 2,
+                    "overview": "With the approach of Valentine\u2019s Day, the Service Club is overwhelmed with requests regarding chocolate. In an attempt to solve the issue, Hachiman concocts a sweet plan.",
+                    "image": "tests/data/images/267435/2/12.jpg",
+                    "watched": true,
+                    "imdbId": "tt4927030",
+                    "tvdbId": 5198596,
+                    "airDate": "2015-06-19T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 5242896,
+                    "directors": [
+                        "Takashi Ikehata",
+                        "Koji Kobayashi",
+                        "Kei Oikawa"
+                    ],
+                    "title": "Spring Always Comes to Life Buried Underneath a Pile of Snow",
+                    "number": 13,
+                    "seasonNumber": 2,
+                    "overview": "An awkward visit from Yukino\u2019s sister causes Yukino to spend the night at Yui\u2019s. But when only Yui seems able to make up her mind, the Service Club may never be the same.",
+                    "image": "tests/data/images/267435/2/13.jpg",
+                    "watched": true,
+                    "imdbId": "tt4927032",
+                    "tvdbId": 5242896,
+                    "airDate": "2015-06-26T02:00:00+09:00"
+                }
+            ]
+        },
+        {
+            "number": 3,
+            "posterImage": "tests/data/images/267435/3/season3Poster.jpg",
+            "numEpisodes": 12,
+            "numEpisodesWatched": 0,
+            "episodes": [
+                {
+                    "serieId": 267435,
+                    "id": 7324928,
+                    "directors": [
+                        "Kei Oikawa"
+                    ],
+                    "title": "In Due Time, the Seasons Change and the Snow Melts",
+                    "number": 1,
+                    "seasonNumber": 3,
+                    "overview": "After Yukino announced that she was ready to name her request to the Service Club, a long silence followed\u2026 but that silence is about to broken.",
+                    "image": "tests/data/images/267435/3/1.jpg",
+                    "watched": false,
+                    "imdbId": "tt11692704",
+                    "tvdbId": 7324928,
+                    "airDate": "2020-07-10T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 7817272,
+                    "directors": [
+                        "Shohei Yamanaka"
+                    ],
+                    "title": "That Key Was Never Handled Until Today",
+                    "number": 2,
+                    "seasonNumber": 3,
+                    "overview": "Isshiki approaches the Service Club with and interesting proposition, but Yukino would like to handle this time-sensitive challenge on her own.",
+                    "image": "tests/data/images/267435/3/2.jpg",
+                    "watched": false,
+                    "imdbId": "tt11930284",
+                    "tvdbId": 7817272,
+                    "airDate": "2020-07-17T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 7831794,
+                    "directors": [
+                        "Ryuutarou Suzuki"
+                    ],
+                    "title": "Iroha Isshiki is the Strongest Junior, as Expected",
+                    "number": 3,
+                    "seasonNumber": 3,
+                    "overview": "What is a prom, exactly? Yukino and Iroha have a plan to show both Hachiman and the student body the answer to that question\u2026 with Yui\u2019s help, of course!",
+                    "image": "tests/data/images/267435/3/3.jpg",
+                    "watched": false,
+                    "imdbId": "tt11930286",
+                    "tvdbId": 7831794,
+                    "airDate": "2020-07-24T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 7831795,
+                    "directors": [
+                        "Shouta Imai"
+                    ],
+                    "title": "By Chance, Yui Yuigahama Thinks of the Future",
+                    "number": 4,
+                    "seasonNumber": 3,
+                    "overview": "The Student Council\u2019s prom plans sour after a shocking school policy reversal \u2014 and to make matters worse, an unexpectedly familiar messenger delivers the bad news.",
+                    "image": "tests/data/images/267435/3/4.jpg",
+                    "watched": false,
+                    "imdbId": "tt12092284",
+                    "tvdbId": 7831795,
+                    "airDate": "2020-07-31T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 7831796,
+                    "directors": [
+                        "Shuntaro Tozawa"
+                    ],
+                    "title": "Shizuka Hiratsuka Deeply Longs for the Days Past",
+                    "number": 5,
+                    "seasonNumber": 3,
+                    "overview": "Hachiman is determine to help bring the prom to life, but Yukino isn\u2019t keen on accepting his help. Luckily Hachiman has a plan \u2014 one that uniquely involves the Service Club.",
+                    "image": "tests/data/images/267435/3/5.jpg",
+                    "watched": false,
+                    "imdbId": "tt12784480",
+                    "tvdbId": 7831796,
+                    "airDate": "2020-08-07T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 7831797,
+                    "directors": [
+                        "Shouta Imai",
+                        "Yoshimichi Hirai",
+                        "Hirokazu Yamada"
+                    ],
+                    "title": "Once again, Hachiman Hikigaya Makes a Speech",
+                    "number": 6,
+                    "seasonNumber": 3,
+                    "overview": "First step in Hachiman\u2019s plan? Rally the troops! Together they\u2019ll create a prom proposal so awful, the PTO will have no choice but to choose Yukino\u2019s instead.",
+                    "image": "tests/data/images/267435/3/6.jpg",
+                    "watched": false,
+                    "imdbId": "tt12784486",
+                    "tvdbId": 7831797,
+                    "airDate": "2020-08-14T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 7831798,
+                    "directors": [
+                        "Shohei Yamanaka"
+                    ],
+                    "title": "Until the End, Yui Yuigahama Will Continue Watching Over Them",
+                    "number": 7,
+                    "seasonNumber": 3,
+                    "overview": "For Hachiman\u2019s plan to succeed, they\u2019ll need allies from other schools. Communicating with those allies, however, is easier said than done\u2026",
+                    "image": "tests/data/images/267435/3/7.jpg",
+                    "watched": false,
+                    "imdbId": "tt12932970",
+                    "tvdbId": 7831798,
+                    "airDate": "2020-08-21T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 7831799,
+                    "directors": [
+                        "Ryuutarou Suzuki"
+                    ],
+                    "title": "Wishing That, at the Very Least, I Don't Make Any More Mistakes",
+                    "number": 8,
+                    "seasonNumber": 3,
+                    "overview": "Pushing a dummy event like a second prom is a great idea on Hachiman\u2019s part, but the tactic isn\u2019t foolproof against Yukino\u2019s mother. Good thing he has an ace up his sleeve\u2026",
+                    "image": "tests/data/images/267435/3/8.jpg",
+                    "watched": false,
+                    "imdbId": "tt12932974",
+                    "tvdbId": 7831799,
+                    "airDate": "2020-08-28T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 7831800,
+                    "directors": [
+                        "Taisuke Tsukuda"
+                    ],
+                    "title": "A Whiff of That Fragrance Will Always Bring Memories of That Season",
+                    "number": 9,
+                    "seasonNumber": 3,
+                    "overview": "Hachiman has a new objective: granting Yui\u2019s wish. First step? Help her bake something delicious for Komachi, and perhaps include Yui\u2019s mom\u2019s \u201csecret ingredient.\u201d",
+                    "image": "tests/data/images/267435/3/9.jpg",
+                    "watched": false,
+                    "imdbId": "tt13019564",
+                    "tvdbId": 7831800,
+                    "airDate": "2020-09-04T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 7831801,
+                    "directors": [
+                        "Tatsuya Sasaki"
+                    ],
+                    "title": "Gallantly, Shizuka Hiratsuka Moves Forward",
+                    "number": 10,
+                    "seasonNumber": 3,
+                    "overview": "Will prom succeed without a hitch? Or is the real trouble lying in wait once prom comes to an end?",
+                    "image": "tests/data/images/267435/3/10.jpg",
+                    "watched": false,
+                    "imdbId": "tt13059242",
+                    "tvdbId": 7831801,
+                    "airDate": "2020-09-11T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 7831802,
+                    "directors": [
+                        "Ryuutarou Suzuki"
+                    ],
+                    "title": "Only a Heated Touch Truly Conveys the Sentiment",
+                    "number": 11,
+                    "seasonNumber": 3,
+                    "overview": "Now that the club has disbanded, they\u2019ll continue to drift even further apart \u2014 but before they do, Yui has one final wish to make.",
+                    "image": "tests/data/images/267435/3/11.jpg",
+                    "watched": false,
+                    "imdbId": "tt13059246",
+                    "tvdbId": 7831802,
+                    "airDate": "2020-09-18T02:00:00+09:00"
+                },
+                {
+                    "serieId": 267435,
+                    "id": 7831803,
+                    "directors": [
+                        "Tatsuya Sasaki"
+                    ],
+                    "title": "My Teen Romantic Comedy Is Wrong, As I Expected",
+                    "number": 12,
+                    "seasonNumber": 3,
+                    "overview": "One final hurdle, and the prom situation will finally be over\u2026 but will Hachiman\u2019s search for something genuine be so easily resolved?",
+                    "image": "tests/data/images/267435/3/12.jpg",
+                    "watched": false,
+                    "imdbId": "tt13059250",
+                    "tvdbId": 7831803,
+                    "airDate": "2020-09-25T02:00:00+09:00"
+                }
+            ]
+        }
+    ]
+}

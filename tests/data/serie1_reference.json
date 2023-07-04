@@ -1,0 +1,1048 @@
+{
+    "id": 81189,
+    "name": "Breaking Bad",
+    "numEpisodes": 62,
+    "numEpisodesWatched": 38,
+    "numSeasons": 5,
+    "overview": "When Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+    "imdbId": "tt0903747",
+    "tvdbId": 81189,
+    "posterImage": "tests/data/images/81189/posterImage_81189.jpg",
+    "bannerImage": "tests/data/images/81189/bannerImage_81189.jpg",
+    "fanartImage": "tests/data/images/81189/fanartImage_81189.jpg",
+    "status": "Ended",
+    "seasons": [
+        {
+            "number": 1,
+            "posterImage": "tests/data/images/81189/1/season1Poster.jpg",
+            "numEpisodes": 7,
+            "numEpisodesWatched": 7,
+            "episodes": [
+                {
+                    "serieId": 81189,
+                    "id": 349232,
+                    "directors": [
+                        "Vince Gilligan"
+                    ],
+                    "title": "Pilot",
+                    "number": 1,
+                    "seasonNumber": 1,
+                    "overview": "When an unassuming high school chemistry teacher discovers he has a rare form of lung cancer, he decides to team up with a former student and create a top of the line crystal meth in a used RV, to provide for his family once he is gone.",
+                    "image": "tests/data/images/81189/1/1.jpg",
+                    "watched": true,
+                    "imdbId": "tt0959621",
+                    "tvdbId": 349232,
+                    "airDate": "2008-01-20T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 349233,
+                    "directors": [
+                        "Adam Bernstein"
+                    ],
+                    "title": "Cat's in the Bag...",
+                    "number": 2,
+                    "seasonNumber": 1,
+                    "overview": "Walt and Jesse attempt to tie up loose ends. The desperate situation gets more complicated with the flip of a coin. Walt's wife, Skyler, becomes suspicious of Walt's strange behavior.",
+                    "image": "tests/data/images/81189/1/2.jpg",
+                    "watched": true,
+                    "imdbId": "tt1054724",
+                    "tvdbId": 349233,
+                    "airDate": "2008-01-27T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 349235,
+                    "directors": [
+                        "Adam Bernstein"
+                    ],
+                    "title": "...And the Bag's in the River",
+                    "number": 3,
+                    "seasonNumber": 1,
+                    "overview": "Walter fights with Jesse over his drug use, causing him to leave Walter alone with their captive, Krazy-8. Meanwhile, Hank has a scared straight moment with Walter Jr. after his aunt discovers he has been smoking pot. Also, Skylar is upset when Walter stays away from home.",
+                    "image": "tests/data/images/81189/1/3.jpg",
+                    "watched": true,
+                    "imdbId": "tt1054725",
+                    "tvdbId": 349235,
+                    "airDate": "2008-02-10T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 349236,
+                    "directors": [
+                        "Jim McKay"
+                    ],
+                    "title": "Cancer Man",
+                    "number": 4,
+                    "seasonNumber": 1,
+                    "overview": "Walter finally tells his family that he has been stricken with cancer. Meanwhile, the DEA believes Albuquerque has a new, big time player to worry about. Meanwhile, a worthy recipient is the target of a depressed Walter's anger, and Jesse makes a surprise visit to his parents home.",
+                    "image": "tests/data/images/81189/1/4.jpg",
+                    "watched": true,
+                    "imdbId": "tt1054726",
+                    "tvdbId": 349236,
+                    "airDate": "2008-02-17T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 349238,
+                    "directors": [
+                        "Tricia Brock"
+                    ],
+                    "title": "Gray Matter",
+                    "number": 5,
+                    "seasonNumber": 1,
+                    "overview": "Walter and Skyler attend a former colleague's party. Jesse tries to free himself from the drugs, while Skyler organizes an intervention.",
+                    "image": "tests/data/images/81189/1/5.jpg",
+                    "watched": true,
+                    "imdbId": "tt1054727",
+                    "tvdbId": 349238,
+                    "airDate": "2008-02-24T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 355100,
+                    "directors": [
+                        "Bronwen Hughes"
+                    ],
+                    "title": "Crazy Handful of Nothin'",
+                    "number": 6,
+                    "seasonNumber": 1,
+                    "overview": "The side effects of chemo begin to plague Walt. Meanwhile, the DEA rounds up suspected dealers.",
+                    "image": "tests/data/images/81189/1/6.jpg",
+                    "watched": true,
+                    "imdbId": "tt1054728",
+                    "tvdbId": 355100,
+                    "airDate": "2008-03-02T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 352534,
+                    "directors": [
+                        "Tim Hunter"
+                    ],
+                    "title": "A No-Rough-Stuff-Type Deal",
+                    "number": 7,
+                    "seasonNumber": 1,
+                    "overview": "Walter accepts his new identity as a drug dealer after a PTA meeting. Elsewhere, Jesse decides to put his aunt's house on the market and Skyler is the recipient of a baby shower.",
+                    "image": "tests/data/images/81189/1/7.jpg",
+                    "watched": true,
+                    "imdbId": "tt1054729",
+                    "tvdbId": 352534,
+                    "airDate": "2008-03-09T21:00:00-04:00"
+                }
+            ]
+        },
+        {
+            "number": 2,
+            "posterImage": "tests/data/images/81189/2/season2Poster.jpg",
+            "numEpisodes": 13,
+            "numEpisodesWatched": 13,
+            "episodes": [
+                {
+                    "serieId": 81189,
+                    "id": 438912,
+                    "directors": [
+                        "Bryan Cranston"
+                    ],
+                    "title": "Seven Thirty-Seven",
+                    "number": 1,
+                    "seasonNumber": 2,
+                    "overview": "Walt and Jesse are vividly reminded of Tuco\u2019s volatile nature, and try to figure a way out of their business partnership. Hank attempts to mend fences between the estranged Marie and Skyler.",
+                    "image": "tests/data/images/81189/2/1.jpg",
+                    "watched": true,
+                    "imdbId": "tt1232244",
+                    "tvdbId": 438912,
+                    "airDate": "2009-03-08T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 438913,
+                    "directors": [
+                        "Charles Haid"
+                    ],
+                    "title": "Grilled",
+                    "number": 2,
+                    "seasonNumber": 2,
+                    "overview": "Walt and Jesse find themselves in close quarters with an unhinged Tuco. Marie and Hank comfort Skyler, who is distraught over Walt\u2019s disappearance. Hank pays a visit to Mrs. Pinkman on some not-so-official business.",
+                    "image": "tests/data/images/81189/2/2.jpg",
+                    "watched": true,
+                    "imdbId": "tt1232249",
+                    "tvdbId": 438913,
+                    "airDate": "2009-03-15T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 438914,
+                    "directors": [
+                        "Terry McDonough"
+                    ],
+                    "title": "Bit by a Dead Bee",
+                    "number": 3,
+                    "seasonNumber": 2,
+                    "overview": "Walt and Jesse become short on cash when they try to cover their tracks. Meanwhile, the DEA has a lead that could them straight to Walt and Jesse.",
+                    "image": "tests/data/images/81189/2/3.jpg",
+                    "watched": true,
+                    "imdbId": "tt1232250",
+                    "tvdbId": 438914,
+                    "airDate": "2009-03-22T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 438915,
+                    "directors": [
+                        "John Dahl"
+                    ],
+                    "title": "Down",
+                    "number": 4,
+                    "seasonNumber": 2,
+                    "overview": "Walt attempts to reconnect with his family, while Jesse struggles to rebuild his life.",
+                    "image": "tests/data/images/81189/2/4.jpg",
+                    "watched": true,
+                    "imdbId": "tt1232251",
+                    "tvdbId": 438915,
+                    "airDate": "2009-03-29T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 438916,
+                    "directors": [
+                        "Johan Renck"
+                    ],
+                    "title": "Breakage",
+                    "number": 5,
+                    "seasonNumber": 2,
+                    "overview": "Hank suffers from the aftermath of his encounter with Tuco. Meanwhile, Jesse hires a crew to get their product out on the streets.",
+                    "image": "tests/data/images/81189/2/5.jpg",
+                    "watched": true,
+                    "imdbId": "tt1232252",
+                    "tvdbId": 438916,
+                    "airDate": "2009-04-05T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 438917,
+                    "directors": [
+                        "Peter Medak"
+                    ],
+                    "title": "Peekaboo",
+                    "number": 6,
+                    "seasonNumber": 2,
+                    "overview": "Walt's secret is in jeopardy when Skyler thanks Gretchen for paying for his treatment.",
+                    "image": "tests/data/images/81189/2/6.jpg",
+                    "watched": true,
+                    "imdbId": "tt1232253",
+                    "tvdbId": 438917,
+                    "airDate": "2009-04-12T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 438918,
+                    "directors": [
+                        "F\u00e9lix Enr\u00edquez Alcal\u00e1"
+                    ],
+                    "title": "Negro y Azul",
+                    "number": 7,
+                    "seasonNumber": 2,
+                    "overview": "Jesse and Walt discuss expanding into new territories; Hank struggles to fit in; Skyler pursues a new job opportunity; Jesse gets to know his landlord.",
+                    "image": "tests/data/images/81189/2/7.jpg",
+                    "watched": true,
+                    "imdbId": "tt1232254",
+                    "tvdbId": 438918,
+                    "airDate": "2009-04-19T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 438919,
+                    "directors": [
+                        "Terry McDonough"
+                    ],
+                    "title": "Better Call Saul",
+                    "number": 8,
+                    "seasonNumber": 2,
+                    "overview": "Walt and Jesse seek advice from a shady attorney when Badger gets in trouble with the law; the DEA believes they have caught up with \"Heisenberg\" ; Hank returns.",
+                    "image": "tests/data/images/81189/2/8.jpg",
+                    "watched": true,
+                    "imdbId": "tt1232255",
+                    "tvdbId": 438919,
+                    "airDate": "2009-04-26T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 438920,
+                    "directors": [
+                        "Michelle MacLaren"
+                    ],
+                    "title": "4 Days Out",
+                    "number": 9,
+                    "seasonNumber": 2,
+                    "overview": "Walt and his family wait for news after he undergoes a PET-CT scan. Walt follows Saul's advice; Jesse's relationship with Jane is put on hold when he and Walt head to the desert for a marathon of cooking.",
+                    "image": "tests/data/images/81189/2/9.jpg",
+                    "watched": true,
+                    "imdbId": "tt1232256",
+                    "tvdbId": 438920,
+                    "airDate": "2009-05-03T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 438921,
+                    "directors": [
+                        "Phil Abraham"
+                    ],
+                    "title": "Over",
+                    "number": 10,
+                    "seasonNumber": 2,
+                    "overview": "Walt and Hank get into a heated argument at a party. Skyler opens up to her boss. Jane hides her relationship with Jesse from her father.",
+                    "image": "tests/data/images/81189/2/10.jpg",
+                    "watched": true,
+                    "imdbId": "tt1232245",
+                    "tvdbId": 438921,
+                    "airDate": "2009-05-10T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 438922,
+                    "directors": [
+                        "Adam Bernstein"
+                    ],
+                    "title": "Mandala",
+                    "number": 11,
+                    "seasonNumber": 2,
+                    "overview": "When unforeseen circumstances cause Walt and Jesse to lose some dealers, Saul suggests they add a new business partner. At work, Skyler confronts Ted about the unnerving information she had uncovered. Jane learns what Jesse does for a living when he opens up to her, which ends in disastrous results.",
+                    "image": "tests/data/images/81189/2/11.jpg",
+                    "watched": true,
+                    "imdbId": "tt1232246",
+                    "tvdbId": 438922,
+                    "airDate": "2009-05-17T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 438923,
+                    "directors": [
+                        "Colin Bucksey"
+                    ],
+                    "title": "Phoenix",
+                    "number": 12,
+                    "seasonNumber": 2,
+                    "overview": "As Walt explores money laundering options, he and Jesse spar over the profits from their latest deal. Jesse and Jane clash with her father. Walt makes a fatal decision.",
+                    "image": "tests/data/images/81189/2/12.jpg",
+                    "watched": true,
+                    "imdbId": "tt1232247",
+                    "tvdbId": 438923,
+                    "airDate": "2009-05-24T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 438924,
+                    "directors": [
+                        "Adam Bernstein"
+                    ],
+                    "title": "ABQ",
+                    "number": 13,
+                    "seasonNumber": 2,
+                    "overview": "Skyler confronts Walt about his secrecy; Jesse falls apart; and Jane's grief-stricken father takes action that results in further tragedy.",
+                    "image": "tests/data/images/81189/2/13.jpg",
+                    "watched": true,
+                    "imdbId": "tt1232248",
+                    "tvdbId": 438924,
+                    "airDate": "2009-05-31T21:00:00-04:00"
+                }
+            ]
+        },
+        {
+            "number": 3,
+            "posterImage": "tests/data/images/81189/3/season3Poster.jpg",
+            "numEpisodes": 13,
+            "numEpisodesWatched": 13,
+            "episodes": [
+                {
+                    "serieId": 81189,
+                    "id": 1533641,
+                    "directors": [
+                        "Bryan Cranston"
+                    ],
+                    "title": "No M\u00e1s",
+                    "number": 1,
+                    "seasonNumber": 3,
+                    "overview": "Walt faces a new threat, on a new front and deals with an increasingly angry Skyler, who must consider what to do next with her life and the kids. Meanwhile, Jesse comes face-to-face with some startling self-revelations.",
+                    "image": "tests/data/images/81189/3/1.jpg",
+                    "watched": true,
+                    "imdbId": "tt1528116",
+                    "tvdbId": 1533641,
+                    "airDate": "2010-03-21T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 1894731,
+                    "directors": [
+                        "Adam Bernstein"
+                    ],
+                    "title": "Caballo sin Nombre",
+                    "number": 2,
+                    "seasonNumber": 3,
+                    "overview": "Despite ever-increasing tension between Walt and Skyler, he pulls out all the stops in an effort to reconcile with the family. Elsewhere, Saul is instrumental in getting Jesse involved in a most-unusual investment opportunity.",
+                    "image": "tests/data/images/81189/3/2.jpg",
+                    "watched": true,
+                    "imdbId": "tt1615186",
+                    "tvdbId": 1894731,
+                    "airDate": "2010-03-28T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 1894741,
+                    "directors": [
+                        "Michelle MacLaren"
+                    ],
+                    "title": "I.F.T.",
+                    "number": 3,
+                    "seasonNumber": 3,
+                    "overview": "Walt ignores Skyler's demands, furthering the rift between them and pushing her to break bad. Still suffering from panic and anxiety attacks, Hank crosses a line at work.",
+                    "image": "tests/data/images/81189/3/3.jpg",
+                    "watched": true,
+                    "imdbId": "tt1615187",
+                    "tvdbId": 1894741,
+                    "airDate": "2010-04-04T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 2012411,
+                    "directors": [
+                        "Scott Winant"
+                    ],
+                    "title": "Green Light",
+                    "number": 4,
+                    "seasonNumber": 3,
+                    "overview": "Walt loses control as he reacts to Skyler's news, endangering his job and relationships with Saul and Jesse. Hank throws himself into his blue meth investigation. Jesse enacts a new plan.",
+                    "image": "tests/data/images/81189/3/4.jpg",
+                    "watched": true,
+                    "imdbId": "tt1615554",
+                    "tvdbId": 2012411,
+                    "airDate": "2010-04-11T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 2055301,
+                    "directors": [
+                        "Johan Renck"
+                    ],
+                    "title": "M\u00e1s",
+                    "number": 5,
+                    "seasonNumber": 3,
+                    "overview": "Gus increases his efforts to lure Walt back into business, forcing a rift between Walt and Jesse. Skyler doubts her new relationship. Marie confides in Skyler about her concern for Hank's well-being.",
+                    "image": "tests/data/images/81189/3/5.jpg",
+                    "watched": true,
+                    "imdbId": "tt1615555",
+                    "tvdbId": 2055301,
+                    "airDate": "2010-04-18T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 2062371,
+                    "directors": [
+                        "John Shiban"
+                    ],
+                    "title": "Sunset",
+                    "number": 6,
+                    "seasonNumber": 3,
+                    "overview": "Walt settles into his new surroundings; Walt, Jr. wants answers about his parents' relationship; Hank's investigation causes problems for Walt and Jesse.",
+                    "image": "tests/data/images/81189/3/6.jpg",
+                    "watched": true,
+                    "imdbId": "tt1615556",
+                    "tvdbId": 2062371,
+                    "airDate": "2010-04-25T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 2062381,
+                    "directors": [
+                        "Michelle MacLaren"
+                    ],
+                    "title": "One Minute",
+                    "number": 7,
+                    "seasonNumber": 3,
+                    "overview": "Hank's increasing volatility forces a confrontation with Jesse and trouble at work. Skyler pressures Walt to make a deal. Gus' actions have severe consequences.",
+                    "image": "tests/data/images/81189/3/7.jpg",
+                    "watched": true,
+                    "imdbId": "tt1615944",
+                    "tvdbId": 2062381,
+                    "airDate": "2010-05-02T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 2062391,
+                    "directors": [
+                        "Colin Bucksey"
+                    ],
+                    "title": "I See You",
+                    "number": 8,
+                    "seasonNumber": 3,
+                    "overview": "The family waits for news about Hank. While Jesse covers at the lab, Walt attempts to placate Gus. After witnessing a disturbing outburst, Walt worries he and his family are in danger.",
+                    "image": "tests/data/images/81189/3/8.jpg",
+                    "watched": true,
+                    "imdbId": "tt1615557",
+                    "tvdbId": 2062391,
+                    "airDate": "2010-05-09T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 2062401,
+                    "directors": [
+                        "Michael Slovis"
+                    ],
+                    "title": "Kafkaesque",
+                    "number": 9,
+                    "seasonNumber": 3,
+                    "overview": "As Hank's hospital bills stack up, Skyler hatches a plan. Walt and Gus come to a better understanding. Jesse, looking for more independence, pursues a new opportunity.",
+                    "image": "tests/data/images/81189/3/9.jpg",
+                    "watched": true,
+                    "imdbId": "tt1615558",
+                    "tvdbId": 2062401,
+                    "airDate": "2010-05-16T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 2062411,
+                    "directors": [
+                        "Rian Johnson"
+                    ],
+                    "title": "Fly",
+                    "number": 10,
+                    "seasonNumber": 3,
+                    "overview": "Walt becomes obsessed with a contaminant in the lab and refuses to finish the cook until it is eliminated. A frustrated Jesse attempts to get Walt back on track.",
+                    "image": "tests/data/images/81189/3/10.jpg",
+                    "watched": true,
+                    "imdbId": "tt1615550",
+                    "tvdbId": 2062411,
+                    "airDate": "2010-05-23T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 2062421,
+                    "directors": [
+                        "Michelle MacLaren"
+                    ],
+                    "title": "Abiquiu",
+                    "number": 11,
+                    "seasonNumber": 3,
+                    "overview": "Skyler gets involved with Walt's business. Hank struggles with his recovery. Jesse makes a startling discovery after meeting a girl at group therapy.",
+                    "image": "tests/data/images/81189/3/11.jpg",
+                    "watched": true,
+                    "imdbId": "tt1615551",
+                    "tvdbId": 2062421,
+                    "airDate": "2010-05-30T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 2106591,
+                    "directors": [
+                        "Adam Bernstein"
+                    ],
+                    "title": "Half Measures",
+                    "number": 12,
+                    "seasonNumber": 3,
+                    "overview": "Against Walt's advice, Jesse lashes out. Fearing for Jesse's safety, Walt takes drastic action to intervene and tragic event leads to a shocking confrontation.",
+                    "image": "tests/data/images/81189/3/12.jpg",
+                    "watched": true,
+                    "imdbId": "tt1615552",
+                    "tvdbId": 2106591,
+                    "airDate": "2010-06-06T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 2106601,
+                    "directors": [
+                        "Vince Gilligan"
+                    ],
+                    "title": "Full Measure",
+                    "number": 13,
+                    "seasonNumber": 3,
+                    "overview": "With Jesse on the run and Mike in hot pursuit, Walt negotiates a bargain with Gus and concocts a disturbing plan to provide for his and Jesse's safety.",
+                    "image": "tests/data/images/81189/3/13.jpg",
+                    "watched": true,
+                    "imdbId": "tt1615553",
+                    "tvdbId": 2106601,
+                    "airDate": "2010-06-13T21:00:00-04:00"
+                }
+            ]
+        },
+        {
+            "number": 4,
+            "posterImage": "tests/data/images/81189/4/season4Poster.jpg",
+            "numEpisodes": 13,
+            "numEpisodesWatched": 5,
+            "episodes": [
+                {
+                    "serieId": 81189,
+                    "id": 2639411,
+                    "directors": [
+                        "Adam Bernstein"
+                    ],
+                    "title": "Box Cutter",
+                    "number": 1,
+                    "seasonNumber": 4,
+                    "overview": "Walt and Jesse face the deadly consequences of their actions. Skyler deals with a puzzling disappearance, as Marie struggles to help Hank with his recovery.",
+                    "image": "tests/data/images/81189/4/1.jpg",
+                    "watched": true,
+                    "imdbId": "tt1683084",
+                    "tvdbId": 2639411,
+                    "airDate": "2011-07-17T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4103847,
+                    "directors": [
+                        "Michelle MacLaren"
+                    ],
+                    "title": "Thirty-Eight Snub",
+                    "number": 2,
+                    "seasonNumber": 4,
+                    "overview": "Walt attempts to form a new alliance as he plans his next move. Skyler pushes Walt towards a business opportunity, in hopes of protecting the family.",
+                    "image": "tests/data/images/81189/4/2.jpg",
+                    "watched": true,
+                    "imdbId": "tt1683089",
+                    "tvdbId": 4103847,
+                    "airDate": "2011-07-24T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4110088,
+                    "directors": [
+                        "David Slade"
+                    ],
+                    "title": "Open House",
+                    "number": 3,
+                    "seasonNumber": 4,
+                    "overview": "Events spiral out of control at Jesse\u2019s place. Skyler reluctantly asks for Saul\u2019s help. Marie returns to an old pastime and a friend asks Hank for help.",
+                    "image": "tests/data/images/81189/4/3.jpg",
+                    "watched": true,
+                    "imdbId": "tt1683090",
+                    "tvdbId": 4110088,
+                    "airDate": "2011-07-31T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4123350,
+                    "directors": [
+                        "Colin Bucksey"
+                    ],
+                    "title": "Bullet Points",
+                    "number": 4,
+                    "seasonNumber": 4,
+                    "overview": "The Cartel takes steps to gain the upper hand. Walt and Skyler share an embarrassing secret with the rest of the family. Jesse\u2019s activities draw unwanted attention.",
+                    "image": "tests/data/images/81189/4/4.jpg",
+                    "watched": true,
+                    "imdbId": "tt1683091",
+                    "tvdbId": 4123350,
+                    "airDate": "2011-08-07T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4123351,
+                    "directors": [
+                        "Michelle MacLaren"
+                    ],
+                    "title": "Shotgun",
+                    "number": 5,
+                    "seasonNumber": 4,
+                    "overview": "When Jesse goes missing, Walt fears the worst. Skyler has an unlikely reunion. Hank shares some bad news with Detective Tim Roberts.",
+                    "image": "tests/data/images/81189/4/5.jpg",
+                    "watched": true,
+                    "imdbId": "tt1683092",
+                    "tvdbId": 4123351,
+                    "airDate": "2011-08-14T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4123352,
+                    "directors": [
+                        "Michael Slovis"
+                    ],
+                    "title": "Cornered",
+                    "number": 6,
+                    "seasonNumber": 4,
+                    "overview": "Skyler makes an unsettling discovery. Walter, Jr. pushes his dad into a questionable purchase. Jesse offers Mike some unexpected help.",
+                    "image": "tests/data/images/81189/4/6.jpg",
+                    "watched": false,
+                    "imdbId": "tt1683093",
+                    "tvdbId": 4123352,
+                    "airDate": "2011-08-21T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4123353,
+                    "directors": [
+                        "Peter Gould"
+                    ],
+                    "title": "Problem Dog",
+                    "number": 7,
+                    "seasonNumber": 4,
+                    "overview": "A frustrated Walt gambles on a risky new plan.  Skyler's business venture hits a snag.  Hank recruits Walter, Jr. for an unusual outing.",
+                    "image": "tests/data/images/81189/4/7.jpg",
+                    "watched": false,
+                    "imdbId": "tt1683094",
+                    "tvdbId": 4123353,
+                    "airDate": "2011-08-28T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4127161,
+                    "directors": [
+                        "Johan Renck"
+                    ],
+                    "title": "Hermanos",
+                    "number": 8,
+                    "seasonNumber": 4,
+                    "overview": "Skyler develops an unusual solution to her money troubles. Hank enlists Walt to investigate a theory. Walt\u2019s impatience with Jesse grows.",
+                    "image": "tests/data/images/81189/4/8.jpg",
+                    "watched": false,
+                    "imdbId": "tt1683095",
+                    "tvdbId": 4127161,
+                    "airDate": "2011-09-04T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4145291,
+                    "directors": [
+                        "Terry McDonough"
+                    ],
+                    "title": "Bug",
+                    "number": 9,
+                    "seasonNumber": 4,
+                    "overview": "Skyler's past mistakes come back to haunt her. Gus takes action to thwart his rivals. Jesse seeks Walt's help, with mixed results.",
+                    "image": "tests/data/images/81189/4/9.jpg",
+                    "watched": false,
+                    "imdbId": "tt1683096",
+                    "tvdbId": 4145291,
+                    "airDate": "2011-09-11T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4157318,
+                    "directors": [
+                        "Michelle MacLaren"
+                    ],
+                    "title": "Salud",
+                    "number": 10,
+                    "seasonNumber": 4,
+                    "overview": "Walt's family worries when he doesn't turn up for Walter, Jr.'s 16th birthday.  Jesse is forced to put his lab skills to the test without Mr. White's help.",
+                    "image": "tests/data/images/81189/4/10.jpg",
+                    "watched": false,
+                    "imdbId": "tt1683085",
+                    "tvdbId": 4157318,
+                    "airDate": "2011-09-18T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4159118,
+                    "directors": [
+                        "Scott Winant"
+                    ],
+                    "title": "Crawl Space",
+                    "number": 11,
+                    "seasonNumber": 4,
+                    "overview": "Walt takes drastic action to protect his secret and Gus. Skyler's efforts to solve Ted's financial problems hit a wall.",
+                    "image": "tests/data/images/81189/4/11.jpg",
+                    "watched": false,
+                    "imdbId": "tt1683086",
+                    "tvdbId": 4159118,
+                    "airDate": "2011-09-25T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4164049,
+                    "directors": [
+                        "Vince Gilligan"
+                    ],
+                    "title": "End Times",
+                    "number": 12,
+                    "seasonNumber": 4,
+                    "overview": "Hank pushes Gomez to pursue one last lead, while Walt struggles to protect the family. Jesse gets alarming news and rushes to meet with Mr. White.",
+                    "image": "tests/data/images/81189/4/12.jpg",
+                    "watched": false,
+                    "imdbId": "tt1683087",
+                    "tvdbId": 4164049,
+                    "airDate": "2011-10-02T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4164050,
+                    "directors": [
+                        "Vince Gilligan"
+                    ],
+                    "title": "Face Off",
+                    "number": 13,
+                    "seasonNumber": 4,
+                    "overview": "Walt and Jesse team up to take on Gus. With Saul's help, Walt finds an unexpected ally.",
+                    "image": "tests/data/images/81189/4/13.jpg",
+                    "watched": false,
+                    "imdbId": "tt1683088",
+                    "tvdbId": 4164050,
+                    "airDate": "2011-10-09T21:00:00-04:00"
+                }
+            ]
+        },
+        {
+            "number": 5,
+            "posterImage": "tests/data/images/81189/5/season5Poster.jpg",
+            "numEpisodes": 16,
+            "numEpisodesWatched": 0,
+            "episodes": [
+                {
+                    "serieId": 81189,
+                    "id": 4307741,
+                    "directors": [
+                        "Michael Slovis"
+                    ],
+                    "title": "Live Free or Die",
+                    "number": 1,
+                    "seasonNumber": 5,
+                    "overview": "As Walt deals with the aftermath of the Casa Tranquila explosion, Hank works to wrap up his investigation of Gus' empire.",
+                    "image": "tests/data/images/81189/5/1.jpg",
+                    "watched": false,
+                    "imdbId": "tt2081647",
+                    "tvdbId": 4307741,
+                    "airDate": "2012-07-15T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4339517,
+                    "directors": [
+                        "Michelle MacLaren"
+                    ],
+                    "title": "Madrigal",
+                    "number": 2,
+                    "seasonNumber": 5,
+                    "overview": "Walt and Jesse pursue an unlikely business partner. The DEA filters through various leads in hopes of finding something.",
+                    "image": "tests/data/images/81189/5/2.jpg",
+                    "watched": false,
+                    "imdbId": "tt2301457",
+                    "tvdbId": 4339517,
+                    "airDate": "2012-07-22T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4339518,
+                    "directors": [
+                        "Adam Bernstein"
+                    ],
+                    "title": "Hazard Pay",
+                    "number": 3,
+                    "seasonNumber": 5,
+                    "overview": "Walt and Jesse formulate a new business plan. Walt shares a secret with Marie.",
+                    "image": "tests/data/images/81189/5/3.jpg",
+                    "watched": false,
+                    "imdbId": "tt2301459",
+                    "tvdbId": 4339518,
+                    "airDate": "2012-07-29T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4354293,
+                    "directors": [
+                        "Rian Johnson"
+                    ],
+                    "title": "Fifty-One",
+                    "number": 4,
+                    "seasonNumber": 5,
+                    "overview": "Walt celebrates another birthday. Skyler contemplates her options, and an associate puts a crimp in Walt and Jesse's business strategy.",
+                    "image": "tests/data/images/81189/5/4.jpg",
+                    "watched": false,
+                    "imdbId": "tt2301461",
+                    "tvdbId": 4354293,
+                    "airDate": "2012-08-05T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4354294,
+                    "directors": [
+                        "George Mastras"
+                    ],
+                    "title": "Dead Freight",
+                    "number": 5,
+                    "seasonNumber": 5,
+                    "overview": "Walt's team gets creative to obtain the methylamine they need to continue their operation.",
+                    "image": "tests/data/images/81189/5/5.jpg",
+                    "watched": false,
+                    "imdbId": "tt2301463",
+                    "tvdbId": 4354294,
+                    "airDate": "2012-08-12T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4354295,
+                    "directors": [
+                        "Colin Bucksey"
+                    ],
+                    "title": "Buyout",
+                    "number": 6,
+                    "seasonNumber": 5,
+                    "overview": "Walt, Jesse, and Mike struggle over the future of their business, as occupational hazards weigh on Jesse.",
+                    "image": "tests/data/images/81189/5/6.jpg",
+                    "watched": false,
+                    "imdbId": "tt2301465",
+                    "tvdbId": 4354295,
+                    "airDate": "2012-08-19T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4354296,
+                    "directors": [
+                        "Thomas Schnauz"
+                    ],
+                    "title": "Say My Name",
+                    "number": 7,
+                    "seasonNumber": 5,
+                    "overview": "Walt takes control of business matters; Mike deals with the consequences of his actions.",
+                    "image": "tests/data/images/81189/5/7.jpg",
+                    "watched": false,
+                    "imdbId": "tt2301467",
+                    "tvdbId": 4354296,
+                    "airDate": "2012-08-26T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4364463,
+                    "directors": [
+                        "Michelle MacLaren"
+                    ],
+                    "title": "Gliding Over All",
+                    "number": 8,
+                    "seasonNumber": 5,
+                    "overview": "Walt takes care of loose ends; Walt makes a dangerous decision.",
+                    "image": "tests/data/images/81189/5/8.jpg",
+                    "watched": false,
+                    "imdbId": "tt2301469",
+                    "tvdbId": 4364463,
+                    "airDate": "2012-09-02T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4460282,
+                    "directors": [
+                        "Bryan Cranston"
+                    ],
+                    "title": "Blood Money",
+                    "number": 9,
+                    "seasonNumber": 5,
+                    "overview": "As Walt and Jesse adjust to life out of the business, Hank grapples with a troubling lead.",
+                    "image": "tests/data/images/81189/5/9.jpg",
+                    "watched": false,
+                    "imdbId": "tt2301471",
+                    "tvdbId": 4460282,
+                    "airDate": "2013-08-11T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4553036,
+                    "directors": [
+                        "Michelle MacLaren"
+                    ],
+                    "title": "Buried",
+                    "number": 10,
+                    "seasonNumber": 5,
+                    "overview": "While Skyler's past catches up with her, Walt covers his tracks. Jesse continues to struggle with his guilt.",
+                    "image": "tests/data/images/81189/5/10.jpg",
+                    "watched": false,
+                    "imdbId": "tt2301443",
+                    "tvdbId": 4553036,
+                    "airDate": "2013-08-18T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4553037,
+                    "directors": [
+                        "Michael Slovis"
+                    ],
+                    "title": "Confessions",
+                    "number": 11,
+                    "seasonNumber": 5,
+                    "overview": "Jesse decides to make a change, while Walt and Skyler try to deal with an unexpected demand.",
+                    "image": "tests/data/images/81189/5/11.jpg",
+                    "watched": false,
+                    "imdbId": "tt2301445",
+                    "tvdbId": 4553037,
+                    "airDate": "2013-08-25T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4553038,
+                    "directors": [
+                        "Sam Catlin"
+                    ],
+                    "title": "Rabid Dog",
+                    "number": 12,
+                    "seasonNumber": 5,
+                    "overview": "An unusual strategy starts to bear fruit, while plans are set in motion that could change everything.",
+                    "image": "tests/data/images/81189/5/12.jpg",
+                    "watched": false,
+                    "imdbId": "tt2301447",
+                    "tvdbId": 4553038,
+                    "airDate": "2013-09-01T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4553039,
+                    "directors": [
+                        "Michelle MacLaren"
+                    ],
+                    "title": "To'hajiilee",
+                    "number": 13,
+                    "seasonNumber": 5,
+                    "overview": "Things heat up for Walt in unexpected ways.",
+                    "image": "tests/data/images/81189/5/13.jpg",
+                    "watched": false,
+                    "imdbId": "tt2301449",
+                    "tvdbId": 4553039,
+                    "airDate": "2013-09-08T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4553040,
+                    "directors": [
+                        "Rian Johnson"
+                    ],
+                    "title": "Ozymandias",
+                    "number": 14,
+                    "seasonNumber": 5,
+                    "overview": "Everyone copes with radically changed circumstances.",
+                    "image": "tests/data/images/81189/5/14.jpg",
+                    "watched": false,
+                    "imdbId": "tt2301451",
+                    "tvdbId": 4553040,
+                    "airDate": "2013-09-15T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4553041,
+                    "directors": [
+                        "Peter Gould"
+                    ],
+                    "title": "Granite State",
+                    "number": 15,
+                    "seasonNumber": 5,
+                    "overview": "Events set in motion long ago move toward a conclusion.",
+                    "image": "tests/data/images/81189/5/15.jpg",
+                    "watched": false,
+                    "imdbId": "tt2301453",
+                    "tvdbId": 4553041,
+                    "airDate": "2013-09-22T21:00:00-04:00"
+                },
+                {
+                    "serieId": 81189,
+                    "id": 4553042,
+                    "directors": [
+                        "Vince Gilligan"
+                    ],
+                    "title": "Felina",
+                    "number": 16,
+                    "seasonNumber": 5,
+                    "overview": "All bad things must come to an end.",
+                    "image": "tests/data/images/81189/5/16.jpg",
+                    "watched": false,
+                    "imdbId": "tt2301455",
+                    "tvdbId": 4553042,
+                    "airDate": "2013-09-29T21:00:00-04:00"
+                }
+            ]
+        }
+    ]
+}
