@@ -1,6 +1,6 @@
 from trackseriessaver.dataSource.trackseries import login, get_series, get_serie, processSerie
-from trackseriessaver.entities import Serie
-from trackseriessaver.config import username, password, image_path
+from trackseriessaver.entities import Serie, SerieEncoder
+from trackseriessaver.utils.config import username, password, image_path
 from trackseriessaver.database import zodb
 import transaction
 import json
@@ -36,7 +36,7 @@ def save_series():
     # print the first 5 series in the database into a json file
     for serie in list(zodb.dbroot["app_data"][username].values())[:5]:
         with open(f"tmp_data/{serie.id}.json", "w") as f:
-            json.dump(serie, f, indent=4)
+            json.dump(serie, f, indent=4, cls=SerieEncoder)
 
 
 def main():

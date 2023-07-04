@@ -2,6 +2,7 @@ import requests
 import json
 import os
 from trackseriessaver.entities import Serie, Season, Episode
+from trackseriessaver.utils.network import get_url
 
 BASE_URL = "https://api.trackseries.tv/v1"
 
@@ -36,7 +37,7 @@ def get_series(access_token: str) -> list[dict]:
     """
     url: str = BASE_URL + "/Follow/Series"
     headers = {"Authorization": "Bearer " + access_token}
-    response = requests.get(url, headers=headers)
+    response = get_url(url, headers=headers)
     return response.json()
 
 
@@ -53,8 +54,26 @@ def get_serie(access_token: str, serie_id: int) -> dict:
     """
     url: str = f"{BASE_URL}/Follow/Series/{serie_id}/extended"
     headers = {"Authorization": "Bearer " + access_token}
-    response = requests.get(url, headers=headers)
+    response = get_url(url, headers=headers)
     return response.json()
+
+
+def save_image(url: str, path: str) -> None:
+    """
+    Save an image from a url to a file
+
+    Args:
+        url (str): the url of the image
+        path (str): the path to save the image to
+    """
+    # if the image already exists, don't download it again
+    if os.path.exists(path):
+        return
+    # get the image from the url
+    img = get_url(url)
+    # save it to a file
+    with open(path, "wb") as f:
+        f.write(img.content)
 
 
 def processEpisodes(episodes: list[dict], imgPath: str) -> list[Episode]:
@@ -75,12 +94,8 @@ def processEpisodes(episodes: list[dict], imgPath: str) -> list[Episode]:
         imdbId: str = episode["ids"]["imdb"]
         tvdbId: int = episode["ids"]["tvdb"]
         airDate: str = episode["firstAired"]
-        # get the image from the url
-        img = requests.get(image)
-        # save it to a file
-        with open(f"{imgPath}/{number}.jpg", "wb") as f:
-            f.write(img.content)
-        image = f"{imgPath}/{number}.jpg"
+        save_image(image, f"{imgPath}/{number}.jpg")
+        image: str = f"{imgPath}/{number}.jpg"
         result.append(
             Episode(
                 serieId=serieId,
@@ -104,15 +119,12 @@ def processSeasons(seasons: list[dict], imagePath: str) -> list[Season]:
     result: list[Season] = []
     for season in seasons:
         number: int = season["seasonNumber"]
-        posterImage: str = season["poster"]
-        img = requests.get(posterImage)
-        seasonPath = imagePath + "/" + str(number)
         # make the directory, if it doesn't exist
+        seasonPath = imagePath + "/" + str(number)
         if not os.path.exists(seasonPath):
             os.mkdir(seasonPath)
-        # save it to a file
-        with open(f"{seasonPath}/season{number}Poster.jpg", "wb") as f:
-            f.write(img.content)
+        posterImage: str = season["poster"]
+        save_image(posterImage, f"{seasonPath}/season{number}Poster.jpg")
         numEpisodes: int = season["progress"]["numEpisodes"]
         numEpisodesWatched: int = season["progress"]["numEpisodesWatched"]
         episodes: list[Episode] = processEpisodes(season["episodes"], seasonPath)
@@ -149,11 +161,7 @@ def processSerie(serie: dict, baseImagePath: str) -> Serie:
         (bannerImage, f"bannerImage_{id}"),
         (fanartImage, f"fanartImage_{id}"),
     ]:
-        # get the image from the url
-        img = requests.get(img)
-        # save it to a file
-        with open(f"{imagePath}/{fileName}.jpg", "wb") as f:
-            f.write(img.content)
+        save_image(img, f"{imagePath}/{fileName}.jpg")
     status: str = serie["status"]
     seasons: list[Season] = processSeasons(serie["seasons"], imagePath)
     return Serie(

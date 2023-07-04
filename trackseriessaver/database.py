@@ -1,6 +1,6 @@
 from ZODB import DB
 from persistent.dict import PersistentDict
-from trackseriessaver.config import database_path
+from trackseriessaver.utils.config import database_path
 import os
 
 
