@@ -1,48 +1,46 @@
-# make a post request to an url and save the response in a file
+from trackseriessaver.dataSource.trackseries import login, get_series, get_serie, processSerie
+from trackseriessaver.entities import Serie
+from trackseriessaver.config import username, password, image_path
+from trackseriessaver.database import zodb
+import transaction
+import json
+import os
+import time
+from persistent.dict import PersistentDict
 
-from trackseriessaver.dataSource.trackseries import login, get_series
-from trackseriessaver.config import username, password
+
+def save_series():
+    """
+    A function that saves the series the user is following to a json file in the database, along with the images of the series
+    """
+    access_token: str = login(username, password)["access_token"]
+    series = get_series(access_token)
+
+    # prepare the folders
+    if not os.path.exists(image_path):
+        os.mkdir(image_path)
+    # prepare the database
+    if username not in zodb.dbroot["app_data"]:
+        zodb.dbroot["app_data"][username] = PersistentDict()
+
+    start = time.time()
+    for serie in series:
+        print(f"Processing serie : {serie['name']}")
+        id: int = serie["id"]
+        processedSerie: Serie = processSerie(get_serie(access_token, id), image_path)
+        zodb.dbroot["app_data"][username][id] = processedSerie
+        transaction.commit()
+    end = time.time()
+    print(f"Processing took {end - start} seconds")
+
+    # print the first 5 series in the database into a json file
+    for serie in list(zodb.dbroot["app_data"][username].values())[:5]:
+        with open(f"tmp_data/{serie.id}.json", "w") as f:
+            json.dump(serie, f, indent=4)
 
 
 def main():
-    login_response: dict = login(username, password)
-    print(login_response)
-    access_token: str = login_response["access_token"]
-    series = get_series(access_token)
-    print(type(series))
-    print(len(series))
-
-    # with open("tests/data/serie1.json") as f:
-    #     series1 = json.load(f)
-    # with open("tests/data/serie2.json") as f:
-    #     series2 = json.load(f)
-
-    # img_path = "tmp_data"
-    # if not os.path.exists(img_path):
-    #     os.makedirs(img_path)
-
-    # serie1: Serie = processSerie(series1, img_path)
-    # serie2: Serie = processSerie(series2, img_path)
-    # for serie in [serie1, serie2]:
-    #     # save the serie to a json file
-    #     with open(f"{img_path}/{serie.id}.json", "w") as f:
-    #         json.dump(serie, f, indent=4, cls=SerieEncoder)
-
-    # # test the reverse process
-    # with open(f"{img_path}/{serie1.id}.json") as f:
-    #     afterserie1 = json.load(f)
-    # with open(f"{img_path}/{serie2.id}.json") as f:
-    #     afterserie2 = json.load(f)
-
-    # afterserie1 = decodeSerie(afterserie1)
-    # afterserie2 = decodeSerie(afterserie2)
-
-    # # check every attribute and see if they are equal
-    # for reference, readSeries in [(serie1, afterserie1), (serie2, afterserie2)]:
-    #     print(type(reference))
-    #     print(type(readSeries))
-    #     # compare them using the eq operator
-    #     assert reference.__eq__(readSeries)
+    save_series()
 
 
 if __name__ == "__main__":

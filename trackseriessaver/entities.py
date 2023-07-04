@@ -1,9 +1,28 @@
 from dataclasses import dataclass
 from json import JSONEncoder
+from persistent import Persistent
 
 
 @dataclass
-class Episode:
+class Episode(Persistent):
+    """
+    The episode of a serie.
+
+    Attributes:
+        serieId (int): The id of the serie.
+        id (int): The id of the episode.
+        directors (list[str]): The directors of the episode.
+        title (str): The title of the episode.
+        number (int): The number of the episode.
+        seasonNumber (int): The number of the season.
+        overview (str): The overview of the episode.
+        image (str): The image of the episode.
+        watched (bool): Whether the episode is watched.
+        imdbId (str): The imdb id of the episode.
+        tvdbId (int): The tvdb id of the episode.
+        airDate (str): The air date of the episode.
+    """
+
     serieId: int
     id: int
     directors: list[str]
@@ -17,81 +36,48 @@ class Episode:
     tvdbId: int
     airDate: str
 
-    def __eq__(self, other) -> bool:
-        if not isinstance(other, Episode):
-            print(f"not an episode: {type(other)}")
-            return False
-        if self.serieId != other.serieId:
-            print(f"serieId: {self.serieId} != {other.serieId}")
-            return False
-        if self.id != other.id:
-            print(f"id: {self.id} != {other.id}")
-            return False
-        if self.directors != other.directors:
-            print(f"directors: {self.directors} != {other.directors}")
-            return False
-        if self.title != other.title:
-            print(f"title: {self.title} != {other.title}")
-            return False
-        if self.number != other.number:
-            print(f"number: {self.number} != {other.number}")
-            return False
-        if self.seasonNumber != other.seasonNumber:
-            print(f"seasonNumber: {self.seasonNumber} != {other.seasonNumber}")
-            return False
-        if self.overview != other.overview:
-            print(f"overview: {self.overview} != {other.overview}")
-            return False
-        if self.image != other.image:
-            print(f"image: {self.image} != {other.image}")
-            return False
-        if self.watched != other.watched:
-            print(f"watched: {self.watched} != {other.watched}")
-            return False
-        if self.imdbId != other.imdbId:
-            print(f"imdbId: {self.imdbId} != {other.imdbId}")
-            return False
-        if self.tvdbId != other.tvdbId:
-            print(f"tvdbId: {self.tvdbId} != {other.tvdbId}")
-            return False
-        if self.airDate != other.airDate:
-            print(f"airDate: {self.airDate} != {other.airDate}")
-            return False
-        return True
-
 
 @dataclass
-class Season:
+class Season(Persistent):
+    """
+    The season of a serie.
+
+    Attributes:
+        number (int): The number of the season.
+        posterImage (str): The poster image of the season.
+        numEpisodes (int): The number of episodes of the season.
+        numEpisodesWatched (int): The number of episodes watched of the season.
+        episodes (list[Episode]): The episodes of the season.
+    """
+
     number: int
     posterImage: str
     numEpisodes: int
     numEpisodesWatched: int
     episodes: list[Episode]
 
-    def __eq__(self, other) -> bool:
-        if not isinstance(other, Season):
-            print(f"not a season: {type(other)}")
-            return False
-        if self.number != other.number:
-            print(f"number: {self.number} != {other.number}")
-            return False
-        if self.posterImage != other.posterImage:
-            print(f"posterImage: {self.posterImage} != {other.posterImage}")
-            return False
-        if self.numEpisodes != other.numEpisodes:
-            print(f"numEpisodes: {self.numEpisodes} != {other.numEpisodes}")
-            return False
-        if self.numEpisodesWatched != other.numEpisodesWatched:
-            print(f"numEpisodesWatched: {self.numEpisodesWatched} != {other.numEpisodesWatched}")
-            return False
-        for thisEpisode, otherEpisode in zip(self.episodes, other.episodes):
-            if not thisEpisode.__eq__(otherEpisode):
-                return False
-        return True
-
 
 @dataclass
-class Serie:
+class Serie(Persistent):
+    """
+    The serie.
+
+    Attributes:
+        id (int): The id of the serie.
+        name (str): The name of the serie.
+        numEpisodes (int): The number of episodes of the serie.
+        numEpisodesWatched (int): The number of episodes watched of the serie.
+        numSeasons (int): The number of seasons of the serie.
+        overview (str): The overview of the serie.
+        imdbId (str): The imdb id of the serie.
+        tvdbId (int): The tvdb id of the serie.
+        posterImage (str): The poster image of the serie.
+        bannerImage (str): The banner image of the serie.
+        fanartImage (str): The fanart image of the serie.
+        status (str): The status of the serie.
+        seasons (list[Season]): The seasons of the serie.
+    """
+
     id: int
     name: str
     numEpisodes: int
@@ -105,52 +91,6 @@ class Serie:
     fanartImage: str
     status: str
     seasons: list[Season]
-
-    # define the equality operator
-    def __eq__(self, other) -> bool:
-        if not isinstance(other, Serie):
-            print("nope")
-            return False
-        if self.id != other.id:
-            print(f"id: {self.id} != {other.id}")
-            return False
-        if self.name != other.name:
-            print(f"name: {self.name} != {other.name}")
-            return False
-        if self.numEpisodes != other.numEpisodes:
-            print(f"numEpisodes: {self.numEpisodes} != {other.numEpisodes}")
-            return False
-        if self.numEpisodesWatched != other.numEpisodesWatched:
-            print(f"numEpisodesWatched: {self.numEpisodesWatched} != {other.numEpisodesWatched}")
-            return False
-        if self.numSeasons != other.numSeasons:
-            print(f"numSeasons: {self.numSeasons} != {other.numSeasons}")
-            return False
-        if self.overview != other.overview:
-            print(f"overview: {self.overview} != {other.overview}")
-            return False
-        if self.imdbId != other.imdbId:
-            print(f"imdbId: {self.imdbId} != {other.imdbId}")
-            return False
-        if self.tvdbId != other.tvdbId:
-            print(f"tvdbId: {self.tvdbId} != {other.tvdbId}")
-            return False
-        if self.posterImage != other.posterImage:
-            print(f"posterImage: {self.posterImage} != {other.posterImage}")
-            return False
-        if self.bannerImage != other.bannerImage:
-            print(f"bannerImage: {self.bannerImage} != {other.bannerImage}")
-            return False
-        if self.fanartImage != other.fanartImage:
-            print(f"fanartImage: {self.fanartImage} != {other.fanartImage}")
-            return False
-        if self.status != other.status:
-            print(f"status: {self.status} != {other.status}")
-            return False
-        for thisSeason, otherSeason in zip(self.seasons, other.seasons):
-            if not thisSeason.__eq__(otherSeason):
-                return False
-        return True
 
 
 class SerieEncoder(JSONEncoder):

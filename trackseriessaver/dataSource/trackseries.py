@@ -66,7 +66,10 @@ def processEpisodes(episodes: list[dict], imgPath: str) -> list[Episode]:
         title: str = episode["title"]
         number: int = episode["number"]
         seasonNumber: int = episode["seasonNumber"]
-        overview: str = episode["overview"].encode("utf-8").decode("utf-8")
+        if episode["overview"] is None:
+            overview: str = ""
+        else:
+            overview: str = episode["overview"].encode("utf-8").decode("utf-8")
         image: str = episode["image"]
         watched: bool = episode["watched"]
         imdbId: str = episode["ids"]["imdb"]

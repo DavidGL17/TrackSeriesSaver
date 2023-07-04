@@ -10,3 +10,4 @@ password = config["password"]
 
 data_path = config["data_path"]
 image_path = data_path + "/images"
+database_path = data_path + "/database"
