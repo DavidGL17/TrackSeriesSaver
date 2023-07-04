@@ -2,4 +2,4 @@ username: "your_username"
 password: "your_password"
 
 # data paths
-data_path: "data/"
+data_path: "data"
