@@ -2,4 +2,5 @@ settings.yml
 .venv
 __pycache__
 poetry.lock
-data
+.pytest_cache
+tmp_data
