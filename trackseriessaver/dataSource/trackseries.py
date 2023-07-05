@@ -8,14 +8,13 @@ import concurrent.futures
 
 from trackseriessaver.entities import Serie, Season, Episode, SerieEncoder
 from trackseriessaver.utils.network import get_url
-from trackseriessaver.utils.config import image_path
 from trackseriessaver.database import zodb
 from trackseriessaver.utils.logger import logger
 
 BASE_URL = "https://api.trackseries.tv/v1"
 
 
-def thread_function(access_token: str, id: int, image_path: str, name: str) -> Serie:
+def threaded_save_serie(access_token: str, id: int, image_path: str, name: str) -> Serie:
     """
     A threaded function to optimize the saving of the series
 
@@ -31,7 +30,7 @@ def thread_function(access_token: str, id: int, image_path: str, name: str) -> S
     return processSerie(get_serie(access_token, id), image_path)
 
 
-def save_series(username: str, password: str):
+def save_series(username: str, password: str, image_path: str):
     """
     A function that saves the series the user is following to a json file in the database, along with the images of the series
     """
@@ -53,7 +52,7 @@ def save_series(username: str, password: str):
         futures = []
         for serie in series:
             id: int = serie["id"]
-            future = executor.submit(thread_function, access_token, id, image_path, serie["name"])
+            future = executor.submit(threaded_save_serie, access_token, id, image_path, serie["name"])
             futures.append(future)
 
         for future, serie in zip(futures, series):
