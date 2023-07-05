@@ -1,10 +1,57 @@
 import requests
 import json
 import os
-from trackseriessaver.entities import Serie, Season, Episode
+import time
+import transaction
+from persistent.dict import PersistentDict
+import concurrent.futures
+
+from trackseriessaver.entities import Serie, Season, Episode, SerieEncoder
 from trackseriessaver.utils.network import get_url
+from trackseriessaver.utils.config import image_path
+from trackseriessaver.database import zodb
 
 BASE_URL = "https://api.trackseries.tv/v1"
+
+
+def save_series(username: str, password: str):
+    """
+    A function that saves the series the user is following to a json file in the database, along with the images of the series
+    """
+    access_token: str = login(username, password)["access_token"]
+    series = get_series(access_token)
+
+    # prepare the folders
+    if not os.path.exists(image_path):
+        os.mkdir(image_path)
+    # prepare the database
+    if username not in zodb.dbroot["app_data"]:
+        zodb.dbroot["app_data"][username] = PersistentDict()
+
+    # settings
+    num_threads = 4
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=num_threads) as executor:
+        start = time.time()
+        futures = []
+        for serie in series:
+            print(f"Processing serie : {serie['name']}")
+            id: int = serie["id"]
+            future = executor.submit(processSerie, get_serie(access_token, id), image_path)
+            futures.append(future)
+
+        for future, serie in zip(futures, series):
+            processedSerie: Serie = future.result()
+            id: int = serie["id"]
+            zodb.dbroot["app_data"][username][id] = processedSerie
+        transaction.commit()
+        end = time.time()
+        print(f"Processing took {end - start} seconds")
+
+    # print the first 5 series in the database into a json file
+    for serie in list(zodb.dbroot["app_data"][username].values())[:5]:
+        with open(f"tmp_data/{serie.id}.json", "w") as f:
+            json.dump(serie, f, indent=4, cls=SerieEncoder)
 
 
 def login(username: str, password: str) -> dict:
