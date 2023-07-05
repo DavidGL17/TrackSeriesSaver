@@ -3,3 +3,7 @@ password: "your_password"
 
 # data paths
 data_path: "data"
+
+# Logging config
+logging_level: "INFO"
+log_file: "trackseriessaver.log"

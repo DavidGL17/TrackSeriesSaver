@@ -33,5 +33,7 @@ jobs:
               run: pip install poetry
             - name: Install dependencies
               run: poetry install
+            - name: Copy settings.yml
+              run: cp settings_example.yml settings.yml
             - name: Run tests
               run: poetry run poe test

@@ -9,5 +9,5 @@
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "python.analysis.typeCheckingMode": "basic",
-    "cSpell.words": ["dbroot", "Serie", "zodb"]
+    "cSpell.words": ["dbroot", "serie", "Serie", "trackseriessaver", "zodb"]
 }
