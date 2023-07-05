@@ -1,6 +1,7 @@
 from ZODB import DB
 from persistent.dict import PersistentDict
 from trackseriessaver.utils.config import database_path
+from trackseriessaver.utils.logger import logger
 import os
 
 
@@ -22,7 +23,7 @@ class SingletonZODB:
         self.dbroot = self.conn.root()
 
         if "app_data" not in self.dbroot:
-            print("Initializing database...")
+            logger.info("Initializing the database")
             # init the database
             self.dbroot["app_data"] = PersistentDict()
 

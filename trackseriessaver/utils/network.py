@@ -4,6 +4,8 @@ from requests.exceptions import ConnectionError
 from requests.models import Response
 import time
 
+from trackseriessaver.utils.logger import logger
+
 # Create a session
 session = requests.Session()
 
@@ -28,5 +30,5 @@ def get_url(url: str, headers={}) -> Response:
             response = session.get(url, headers=headers)
             return response
         except ConnectionError as e:
-            print(f"Connection error occurred: {e}")
+            logger.info(f"Connection error occurred: {e}")
             time.sleep(1)
