@@ -10,8 +10,25 @@ from trackseriessaver.entities import Serie, Season, Episode, SerieEncoder
 from trackseriessaver.utils.network import get_url
 from trackseriessaver.utils.config import image_path
 from trackseriessaver.database import zodb
+from trackseriessaver.utils.logger import logger
 
 BASE_URL = "https://api.trackseries.tv/v1"
+
+
+def thread_function(access_token: str, id: int, image_path: str, name: str) -> Serie:
+    """
+    A threaded function to optimize the saving of the series
+
+    Args:
+        access_token (str): the access token of the user
+        id (int): the id of the serie
+        image_path (str): the path to the image folder
+
+    Returns:
+        Serie: the serie related to the id as given by the processSerie function
+    """
+    logger.info(f"Processing serie : {name}")
+    return processSerie(get_serie(access_token, id), image_path)
 
 
 def save_series(username: str, password: str):
@@ -35,9 +52,8 @@ def save_series(username: str, password: str):
         start = time.time()
         futures = []
         for serie in series:
-            print(f"Processing serie : {serie['name']}")
             id: int = serie["id"]
-            future = executor.submit(processSerie, get_serie(access_token, id), image_path)
+            future = executor.submit(thread_function, access_token, id, image_path, serie["name"])
             futures.append(future)
 
         for future, serie in zip(futures, series):
@@ -46,7 +62,7 @@ def save_series(username: str, password: str):
             zodb.dbroot["app_data"][username][id] = processedSerie
         transaction.commit()
         end = time.time()
-        print(f"Processing took {end - start} seconds")
+        logger.info(f"Processing took {end - start} seconds")
 
     # print the first 5 series in the database into a json file
     for serie in list(zodb.dbroot["app_data"][username].values())[:5]:
