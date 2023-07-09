@@ -10,4 +10,4 @@ RUN poetry install
 # copy the rest of the files
 COPY . /app
 
-CMD ["poetry", "run", "poe", "app"]
+CMD ["poetry", "run", "python", "trackseriessaver/main.py"]

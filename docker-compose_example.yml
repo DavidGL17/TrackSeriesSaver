@@ -6,6 +6,7 @@ services:
     container_name: TrackSeriesSaver
     volumes:
       - ./settings.yaml:/app/settings.yaml
+      # add here a line for you data folder
     environment:
       TZ: "Europe/Zurich"
     restart: unless-stopped
