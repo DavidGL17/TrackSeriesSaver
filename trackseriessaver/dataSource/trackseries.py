@@ -10,6 +10,7 @@ from trackseriessaver.entities import Serie, Season, Episode, SerieEncoder
 from trackseriessaver.utils.network import get_url
 from trackseriessaver.database import zodb
 from trackseriessaver.utils.logger import logger
+from trackseriessaver.utils.config import num_threads
 
 BASE_URL = "https://api.trackseries.tv/v1"
 
@@ -43,9 +44,6 @@ def save_series(username: str, password: str, image_path: str):
     # prepare the database
     if username not in zodb.dbroot["app_data"]:
         zodb.dbroot["app_data"][username] = PersistentDict()
-
-    # settings
-    num_threads = 4
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=num_threads) as executor:
         start = time.time()

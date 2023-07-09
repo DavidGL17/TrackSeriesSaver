@@ -1,6 +1,11 @@
 username: "your_username"
 password: "your_password"
 
+# config
+cron_string: "*/1 * * * *"
+timezone: "Europe/Zurich"
+num_threads: 2
+
 # data paths
 data_path: "data"
 
