@@ -6,11 +6,11 @@ import transaction
 from persistent.dict import PersistentDict
 import concurrent.futures
 
-from trackseriessaver.entities import Serie, Season, Episode, SerieEncoder
-from trackseriessaver.utils.network import get_url
-from trackseriessaver.database import zodb
-from trackseriessaver.utils.logger import logger
-from trackseriessaver.utils.config import num_threads
+from ..entities import Serie, Season, Episode, SerieEncoder
+from ..utils.network import get_url
+from ..database import zodb
+from ..utils.logger import logger
+from ..utils.config import num_threads
 
 BASE_URL = "https://api.trackseries.tv/v1"
 

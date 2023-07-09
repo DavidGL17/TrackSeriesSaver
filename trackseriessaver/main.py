@@ -1,6 +1,6 @@
-from trackseriessaver.dataSource.trackseries import save_series
-from trackseriessaver.utils.config import username, password, image_path, cron_string, timezone
-from trackseriessaver.utils.logger import logger
+from .dataSource.trackseries import save_series
+from .utils.config import username, password, image_path, cron_string, timezone
+from .utils.logger import logger
 
 from croniter import croniter
 from datetime import datetime

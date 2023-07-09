@@ -1,4 +1,4 @@
-from trackseriessaver.dataSource.trackseries import (
+from .dataSource.trackseries import (
     login,
     processSerie,
 )
@@ -9,7 +9,7 @@ from .general_utils import (
     serie1_reference_json_path,
     serie2_reference_json_path,
 )
-from trackseriessaver.entities import decodeSerie
+from .entities import decodeSerie
 import json
 
 

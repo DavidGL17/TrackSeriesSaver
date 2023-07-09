@@ -1,7 +1,7 @@
 from ZODB import DB
 from persistent.dict import PersistentDict
-from trackseriessaver.utils.config import database_path
-from trackseriessaver.utils.logger import logger
+from .utils.config import database_path
+from .utils.logger import logger
 import os
 
 
