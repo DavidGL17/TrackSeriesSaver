@@ -4,7 +4,7 @@ from requests.exceptions import ConnectionError
 from requests.models import Response
 import time
 
-from .logger import logger
+from trackseriessaver.utils.logger import logger
 
 # Create a session
 session = requests.Session()

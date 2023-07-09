@@ -2,7 +2,7 @@
 The logger module for the TSM Accounting Manager application.
 """
 import logging
-from .config import log_file, logging_level
+from trackseriessaver.utils.config import log_file, logging_level
 
 # configure the file handler
 file_handler = logging.FileHandler(log_file, mode="w")

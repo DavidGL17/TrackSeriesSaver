@@ -1,4 +1,4 @@
-from .entities import Episode, Serie, Season
+from trackseriessaver.entities import Episode, Serie, Season
 
 image_path = "tests/data/images"
 
