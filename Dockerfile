@@ -7,10 +7,8 @@ RUN pip install poetry
 COPY pyproject.toml poetry.toml /app/
 RUN poetry install
 
-# copy the rest of the files
-COPY . /app
 # copy the settings file, and everything in the trackseriessaver folder
-COPY settings.py /app/
+COPY settings.yml /app/settings.yml
 COPY trackseriessaver /app/trackseriessaver
 
 CMD ["poetry", "run", "trackseriessaver"]
