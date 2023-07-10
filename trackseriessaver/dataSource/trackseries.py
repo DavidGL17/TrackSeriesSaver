@@ -6,7 +6,7 @@ import transaction
 from persistent.dict import PersistentDict
 import concurrent.futures
 
-from trackseriessaver.entities import Serie, Season, Episode, SerieEncoder
+from trackseriessaver.entities import Serie, Season, Episode
 from trackseriessaver.utils.network import get_url
 from trackseriessaver.database import zodb
 from trackseriessaver.utils.logger import logger
@@ -60,11 +60,6 @@ def save_series(username: str, password: str, image_path: str):
         transaction.commit()
         end = time.time()
         logger.info(f"Processing took {end - start} seconds")
-
-    # print the first 5 series in the database into a json file
-    for serie in list(zodb.dbroot["app_data"][username].values())[:5]:
-        with open(f"tmp_data/{serie.id}.json", "w") as f:
-            json.dump(serie, f, indent=4, cls=SerieEncoder)
 
 
 def login(username: str, password: str) -> dict:
