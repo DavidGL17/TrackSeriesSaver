@@ -5,3 +5,4 @@ poetry.lock
 .pytest_cache
 tmp_data
 *.log
+node_modules
