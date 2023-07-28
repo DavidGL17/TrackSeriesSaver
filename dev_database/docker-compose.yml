@@ -1,0 +1,11 @@
+version: "3"
+services:
+    mongo-db-data:
+        image: mongo
+        ports:
+            - "27019:27017"
+        environment:
+            - MONGO_INITDB_DATABASE=data_storage
+            # Add any additional MongoDB environment variables if needed
+        volumes:
+            - ./data:/data/db

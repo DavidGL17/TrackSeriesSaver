@@ -6,3 +6,5 @@ poetry.lock
 tmp_data
 *.log
 node_modules
+backend/test.py
+dev_database/data
