@@ -78,6 +78,10 @@ const SerieSchema: Schema<ISerie> = new Schema({
   seasons: [SeasonSchema],
 });
 
+const Episode: Model<IEpisode> = model<IEpisode>("Episode", EpisodeSchema);
+const Season: Model<ISeason> = model<ISeason>("Season", SeasonSchema);
 const Serie: Model<ISerie> = model<ISerie>("Serie", SerieSchema);
 
-export { Serie, ISerie, ISeason, IEpisode };
+console.log("Serie", Serie);
+
+export { Serie, Season, Episode, ISerie, ISeason, IEpisode };

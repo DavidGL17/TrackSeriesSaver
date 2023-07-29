@@ -4,6 +4,8 @@ import morgan from "morgan";
 import { app } from "./routes";
 import { logger } from "./utils/logger";
 import mongoose from "mongoose";
+import dotenv from "dotenv";
+import { ensureDefaultUser } from "./models/User";
 
 const mainApp = express();
 
@@ -32,6 +34,12 @@ mongoose
     logger.error(error);
     process.exit(1);
   });
+
+// init dotenv
+dotenv.config();
+
+// Ensure we have a default user
+ensureDefaultUser();
 
 // Start the server
 mainApp.listen(3001, "0.0.0.0", () => {
