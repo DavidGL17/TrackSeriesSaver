@@ -4,7 +4,7 @@ from persistent import Persistent
 
 
 @dataclass
-class Episode(Persistent):
+class Episode:
     """
     The episode of a serie.
 
@@ -38,7 +38,7 @@ class Episode(Persistent):
 
 
 @dataclass
-class Season(Persistent):
+class Season:
     """
     The season of a serie.
 
@@ -58,7 +58,7 @@ class Season(Persistent):
 
 
 @dataclass
-class Serie(Persistent):
+class Serie:
     """
     The serie.
 
